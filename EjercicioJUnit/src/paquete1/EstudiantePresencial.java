@@ -17,7 +17,7 @@ public class EstudiantePresencial extends Estudiante{
     }
     
     // 3.  Método establecerCostoCredito(valor: Real)
-    public void establecerCostoCredito(double valor){
+    public void establecerCostoCreditos(double valor){
         costoCredito = valor;
     }
 
@@ -33,7 +33,7 @@ public class EstudiantePresencial extends Estudiante{
     }
 
     // 6. Método obtenerCostoCredito() : Real
-    public double obtenerCostoCredito(){
+    public double obtenerCostoCreditos(){
         return costoCredito;
     }
 
